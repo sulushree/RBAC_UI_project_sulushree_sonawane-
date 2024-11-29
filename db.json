@@ -1,0 +1,11 @@
+{
+  "users": [
+    { "id": 1, "name": "Admin", "email": "admin@example.com", "role": "Admin", "status": "Active" },
+    { "id": 2, "name": "User", "email": "user@example.com", "role": "User", "status": "Active" }
+  ],
+  "roles": [
+    { "id": 1, "name": "Admin", "permissions": ["read", "write", "delete"] },
+    { "id": 2, "name": "User", "permissions": ["read"] }
+  ],
+  "permissions": ["read", "write", "delete"]
+}
